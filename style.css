@@ -354,7 +354,16 @@ body {
 
 .register {
   height: 50vh;
-  background-color: #0573ec;
+  /* background-color: #0573ec; */
+  background-image: linear-gradient(
+    to right bottom,
+    hsla(199, 69%, 65%, 0.8),
+    rgba(0, 163, 243, 0.8),
+    rgba(0, 135, 255, 0.8),
+    hsla(216, 100%, 50%, 0.8),
+    rgba(5, 49, 245, 0.8)
+  );
+
   display: flex;
   justify-content: space-between;
   align-items: center;
