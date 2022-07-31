@@ -139,18 +139,21 @@ body {
 
 .all-cards {
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   /* background-color: orangered; */
 }
 .cards {
   display: flex;
   justify-content: space-between;
+  row-gap: 70px;
+  column-gap: 40px;
+  flex-wrap: wrap;
   margin: 80px 85px 0 85px;
 }
 .card {
   background-color: #ffffff;
-  width: 258px;
-  padding: 10px;
+  /* width: 258px; */
+  padding: 13px 13px;
 
   /* margin-right: 170px; */
   box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
@@ -211,6 +214,7 @@ body {
   display: flex;
   justify-content: center;
   height: 20vh;
+  margin-top: 100px;
   /* background-color: rebeccapurple; */
 }
 
@@ -433,4 +437,12 @@ body {
 
 .social-media h4 {
   font-size: 22px;
+}
+
+/* media query for cards */
+
+@media screen and (max-width: 782px) {
+  .cards {
+    justify-content: center;
+  }
 }
